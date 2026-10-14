@@ -6,6 +6,8 @@
 
 🏥 At Archle Labs I work directly with doctors at a client hospital, turn their feedback into shipped features, and deploy on AWS with CI/CD.
 
+🌍 I built and deployed the Archle Labs website end to end: [archlelabs.com](https://archlelabs.com/)
+
 🤖 Currently focused on:
 
 * LLM applications, RAG pipelines and AI agents (LangChain, LangGraph, MCP)
@@ -18,6 +20,12 @@
 
 ## 🛠️ Featured Projects:
 
+
+### 🌍 Archle Labs Website and Hiring Dashboard
+Built and deployed [archlelabs.com](https://archlelabs.com/) end to end (Next.js front end, PostgreSQL backed API on AWS, CI/CD with GitHub Actions), including the admin workspace the HR team uses to filter and shortlist candidates with ArchleMatch AI.
+
+`Next.js` `PostgreSQL` `AWS` `GitHub Actions`
+
 ### 🔎 ArchleMatch AI: Resume Matching with Hybrid RAG
 BM25 keyword search fused with pgvector semantic search to rank candidates against a job description, with resume filters. Built into the Archle Labs admin dashboard, where the HR team uses it in production to filter and shortlist candidates. Standalone demo: [archlematch-ai.onrender.com](https://archlematch-ai.onrender.com/)
 
@@ -27,6 +35,7 @@ BM25 keyword search fused with pgvector semantic search to rank candidates again
 Self-hostable platform with an SDK and ingestion API feeding a queue-based worker that rebuilds nested traces, spans and generations with token usage and cost. Includes prompt versioning, dataset evaluation with regression comparison, an analytics dashboard and access control. Docker deploy and 37 unit tests. Live: [tracewell-v0lw.onrender.com](https://tracewell-v0lw.onrender.com/) | Code: [github.com/Veeky-kumar/tracewell](https://github.com/Veeky-kumar/tracewell)
 
 `TypeScript` `Next.js` `PostgreSQL` `Redis` `Docker`
+
 
 ### 🧠 More Projects
 * **AI Research Assistant**: multi-agent system with planning, long term memory and automated paper ingestion (LangGraph)
